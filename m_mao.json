@@ -442,7 +442,7 @@
 "cdnjs.hnfenxun.com",
 "cms.qdwght.com"
 ]
-"spider": "https://github.com/sahuidalang/sahui/blob/main/custom_spider_1.jar"
+"spider": "https://raw.githubusercontent.com/sahuidalang/sahui/main/custom_spider_1.jar"
 }
 
 
