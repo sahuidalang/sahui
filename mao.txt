@@ -1055,5 +1055,5 @@
     "cms.qdwght.com"
   ],
   "wallpaper": "https://picsum.photos/1280/720/?blur=10",
-  "spider": "https://github.com/sahuidalang/sahui/blob/main/custom_spider1.jar"
+  "spider": "https://github.com/sahuidalang/sahui/blob/main/custom_spider_1.jar"
 }
