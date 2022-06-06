@@ -43,7 +43,7 @@
 {"key":"*010爱资源","name":"*010爱资源","type":0,"api":"http://www.010aizy.com/API/macs.php","searchable":1,"quickSearch":1},
 {"key":"*抖阴视频","name":"*抖阴视频","type":1,"api":"https://www.888dav.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"*麻豆视频","name":"*麻豆视频","type":1,"api":"https://madouse.la/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"*浪潮资源","name":"*浪潮资源","type":1,"api":"http://langchaozy6.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*浪潮资源","name":"*浪潮资源","type":1,"api":"http://langchaozy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"*速播资源","name":"*速播资源","type":1,"api":"https://api.suboapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"*逼哩逼哩视频","name":"*逼哩逼哩视频","type":1,"api":"http://blbl.space/inc/apijson_vod.php","searchable":1,"quickSearch":1},
 {"key":"*酷豆资源","name":"*酷豆资源","type":1,"api":"https://kudouzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
