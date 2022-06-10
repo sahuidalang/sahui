@@ -2,15 +2,7 @@
 "sites": [
 {"key": "快车资源","name": "快车资源","type": 0,"api": "https://caiji.kczyapi.com/api.php/provide/vod/at/xml/","playUrl": "https://jiexi.kczyapi.com/m3u8/?url=","searchable": 1,"quickSearch": 1,"filterable": 1
 },
-{
-  "key": "csp_Kmys",
-  "name": "酷猫",
-  "type": 3,
-  "api": "csp_Kmys",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1
-},
+{"key": "csp_Kmys","name": "酷猫🐞","type": 3,"api": "csp_Kmys","searchable": 1,"quickSearch": 1,"filterable": 1},
 {
   "key": "push_agent",
   "name": "推送",
