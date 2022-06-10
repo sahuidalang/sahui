@@ -7,8 +7,8 @@
   "name": "酷猫",
   "type": 3,
   "api": "csp_hmys",
-  "searchable": 0,
-  "quickSearch": 0,
+  "searchable": 1,
+  "quickSearch": 1,
   "filterable": 0
 },
 {
