@@ -251,7 +251,7 @@
 "wasu",
 "bilibili"
 ],
-"spider":"https://raw.githubusercontent.com/sahuidalang/sahui/main/6080.jar",
+"spider":"https://github.com/sahuidalang/sahui/blob/main/6080.jar",
 "ijk": [
 {
 "group": "软解码",
