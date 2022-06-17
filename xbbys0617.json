@@ -1,7 +1,7 @@
 //主页接口支持5种接口格式，只要后缀是v1.vod、/v1/、/app/、/v2/、/mogai_api.php/v1.vod、5种的格式，都是可以直接复制过来使用的。最后一个接口结尾不加 , 号。
 {"zhuyejiekou": [
 {"name":"01-独播社","url":"http://35ys.cc/api.php/v1.vod"},
-{"name":"丝袜采集","url":"https://siwazyw.cc/api.php/provide/vod/at/xml/"},
+{"name":"丝袜采集","url":"https://siwazyw.cc/api.php/provide/vod/"},
 {"name":"湃黎影院","url":"http://app.ppli.xyz/api.php/v1.vod"},
 {"name":"03-vip院线","url":"https://vip.wscyun.com/api.php/v1.vod"},
 {"name":"04-小城影院","url":"http://app.269w.com/api.php/v1.vod"},
