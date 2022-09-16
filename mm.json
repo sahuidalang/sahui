@@ -1,4 +1,4 @@
-{"spider":"clan://TVBox/18.jar",
+{"spider":"https://raw.githubusercontent.com/sahuidalang/catjar/main/18.jar",
 "sites": [
 {
         "api":"csp_Hsck",
