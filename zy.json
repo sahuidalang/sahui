@@ -1,0 +1,221 @@
+{
+  "analyze": [
+    {
+      "id": 1, // id 唯一值不可重复
+      "name": "纯净", // 名称
+      "url": "https://im1907.top/?jx=", // 解析源地址
+      "isActive": true // 是否启用 true启用 false 禁用
+    }
+  ],
+  "iptv": [
+    {
+      "id": 1, // id 唯一值不可重复
+      "name": "APTV", // 名称
+      "url": "https://ghproxy.com/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u", // 直播源地址
+      "type": "remote", // remote为远程m3u local本地m3u文件路径
+      "isActive": true, // 是否启用 true启用 false 禁用
+      "epg": "https://epg.112114.xyz/" // 电子节目单地址
+    }
+  ],
+  "channel": [
+    {
+      "name": "CCTV1",
+      "url": "http://hms304nc1972679586.live.aikan.miguvideo.com/wh7f454c46tw3831204341_1349411946/wd_r2/cctv/cctv1hd/2500/01.m3u8?msisdn=19115966146&Channel_ID=0119_04102000-99000_400300000040002&client_ip=182.149.232.3&timestamp=20230115080246&ContentId=265183188&timezone=UTC&mtv_session=01b97ad3f1d61532d8f0d40578ee3f47&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=ac6f75650a73ab06efc36233598f26b8",
+      "group": "央视",
+      "id": 5821
+    }
+  ],
+  "sites": [
+    {
+      "key": "", // uuid
+      "name": "39影视",  // 名称
+      "api": "https://www.39kan.com/api.php/provide/vod/",  // 站点源地址
+      "playUrl": "", // 配合解析去url地址
+      "search": 1, // 0:关闭 1:聚合搜索 2:本站搜索
+      "group": "切片", // 分组
+      "status": false, //  已经弃用该参数
+      "isActive": true, // 是否启用 true启用 false 禁用
+      "type": 1,  // 0:cms(xml) 1:cms(json) 2:drpy 3:app(v3) 4:app(v1)
+      "id": 1,  // id 唯一值不可重复
+      "categories": "电视,影视" // 按顺序展示所配置的分类 不配置则默认展示所有分类
+    },
+    {"key":"*🈲ASMR","name":"*🈲ASMR(优)","type":1,"api":"http://www.asmr19.in/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲丝袜资源海外","name":"*?🈲丝袜资源海外","type":1,"api":"https://haiwai.siwazyw.org/api.php/provide/vod/at/json/","searchable":1,"quickSearch":1},//xml类型:"https://siwazyw.cc/api.php/provide/vod/at/xml/"
+{"key":"*🈲黄瓜","name":"*🈲黄瓜","type":1,"api":"https://www.zy018.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲155资源","name":"*🈲155资源","type":1,"api":"https://155api.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲丝袜资源国内","name":"*🈲丝袜资源国内","type":1,"api":"https://www.siwazyw.tv/api.php/provide/vod/at/json/","searchable":1,"quickSearch":1},
+{"key":"*🈲森林资源","name":"*?🈲森林资源(无水印)","type":0,"api":"https://slapibf.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1},//xml类型:"https://slapibf.com/api.php/provide/vod/at/xml"
+{"key":"*🈲奥斯卡资源","name":"*🈲奥斯卡资源","type":1,"api":"https://aosikazy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},//xml类型:https://aosikazy.com/api.php/provide/vod/at/xml
+{"key":"*🈲玉兔资源","name":"*🈲玉兔资源(无水印)","type":1,"api":"https://apiyutu.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲色鬼资源","name":"*🈲色鬼资源(无水印)","type":1,"api":"https://apiyutu.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲香蕉资源","name":"*?🈲香蕉资源","type":1,"api":"https://xjzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},//xml类型:"https://xjzyapi.com/api.php/provide/vod/at/xml"
+{"key":"*🈲开云资源","name":"*?🈲开云资源","type":1,"api":"https://caiji.kaiyunzy.net/inc/apijson_vod.php","searchable":1,"quickSearch":1},
+{"key":"*🈲伊人资源","name":"*🈲伊人资源","type":1,"api":"https://api.yirenziyuan.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲滴滴资源","name":"*🈲滴滴资源","type":1,"api":"https://api.ddapi.cc/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲老司鸡资源","name":"*🈲老司鸡资源","type":0,"api":"https://www.lsjapi.com/home/cjapi/asd2g8/mc10/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲蛋蛋视频","name":"*🈲蛋蛋视频","type":1,"api":"https://156.249.29.8/inc/apijson_vod.php","searchable":1,"quickSearch":1},
+{"key":"*🈲色南国资源","name":"*🈲色南国资源","type":1,"api":"https://api.sexnguon.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲美少女资源","name":"*🈲美少女资源","type":0,"api":"https://www.msnii.com/api/xml.php","searchable":1,"quickSearch":1},
+{"key":"*🈲SB资源","name":"*?🈲SB资源","type":0,"api":"http://www.sdzy002.com:777/inc/sea","searchable":1,"quickSearch":1},//http://www.shabizy.com:777/inc/sea
+{"key":"*🈲葡萄资源","name":"*?🈲葡萄资源","type":1,"api":"https://api.putaozy.net/inc/apijson_vod.php","searchable":1,"quickSearch":1},
+{"key":"*🈲色窝资源","name":"*🈲色窝资源","type":1,"api":"https://sewozyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲佳丽资源","name":"*?🈲佳丽资源","type":1,"api":"https://jializyzapi.com/api.php/provide/vod/?ac=list","playUrl":"https://jiexi.jlzyplayer.com/m3u8/?url=","searchable":1,"quickSearch":1},
+{"key":"*🈲色猫资源","name":"*🈲色猫资源","type":0,"api":"https://caiji.semaozy.net/inc/api.php","playUrl":"https://jiexi.99mao.xyz/m3u8/?url=","searchable":1,"quickSearch":1},//xml类型:"https://api.maozyapi.com/inc/api.php
+{"key":"*🈲523资源","name":"*?🈲523资源","type":1,"api":"https://caiji.523zyw.com/inc/apijson_vod.php","searchable":1,"quickSearch":1},//XML类型:https://caiji.523zyw.com/inc/api.php
+{"key":"*🈲草莓资源","name":"*?🈲草莓资源","type":1,"api":"https://caiji.caomeiapi.com/inc/apijson_vod.php?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲花魁资源","name":"*?🈲花魁资源","type":1,"api":"https://caiji.huakuiapi.com/inc/apijson_vod.php","searchable":1,"quickSearch":1},
+{"key":"*🈲大地资源","name":"*🈲大地资源","type":0,"api":"https://dadiapi.com/api.php",  "playUrl": "https://play.dadiapi.com/watch?url=","searchable":1,"quickSearch":1},
+{"key":"*🈲水蜜桃","name":"*?🈲水蜜桃","type":1,"api":"http://51smt4.xyz/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲秀色资源","name":"*?🈲秀色资源","type":1,"api":"https://api.xiuseapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲探探资源","name":"*?🈲探探资源","type":1,"api":"https://apittzy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲色屌丝资源","name":"*?🈲色屌丝资源","type":0,"api":"http://sdszyapi.com/home/cjapi/asbb/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲小姐姐资源","name":"*?🈲小姐姐资源","type":0,"api":"https://xjjzyapi.com/home/cjapi/askl/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲52AVAV","name":"*?🈲52AVAV","type":0,"api":"https://52zyapi.com/home/cjapi/asda/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲我要啪啪","name":"*?🈲我要啪啪","type":0,"api":"http://www.caiji21.com/home/cjapi/klkl/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲AV集中淫","name":"*🈲AV集中淫","type":0,"api":"https://www.caiji22.com/home/cjapi/klp0/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲夜夜撸资源","name":"*🈲夜夜撸资源","type":0,"api":"https://www.caiji23.com/home/cjapi/kls6/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲大屌丝资源","name":"*🈲大屌丝资源","type":0,"api":"http://www.caiji24.com/home/cjapi/p0d2/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲咪咪资源","name":"*🈲咪咪资源","type":0,"api":"http://www.caiji25.com/home/cjapi/p0as/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲鲍鱼AV","name":"*🈲鲍鱼AV","type":0,"api":"http://caiji26.com/home/cjapi/p0g8/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲精工厂资源","name":"*🈲精工厂资源","type":0,"api":"https://jgczyapi.com/home/cjapi/kld2/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲点点娱乐","name":"*🈲点点娱乐","type":0,"api":"https://xx55zyapi.com/home/cjapi/ascf/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲大MM资源","name":"*🈲大MM资源","type":0,"api":"https://www.dmmapi.com/home/cjapi/asd2c7/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲黄瓜TV资源","name":"*🈲黄瓜TV资源","type":0,"api":"https://www.caiji10.com/home/cjapi/cfs6/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲快播盒子资源","name":"*🈲快播盒子资源","type":0,"api":"https://www.caiji09.com/home/cjapi/cfp0/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲大香蕉资源","name":"*🈲大香蕉资源","type":0,"api":"https://www.caiji08.com/home/cjapi/cfkl/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲日本AV在线","name":"*🈲日本AV在线","type":0,"api":"https://www.caiji07.com/home/cjapi/cfcf/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key": "*🈲mcaiji07","name": "*🈲07","type": 0,"api": "https://www.caiji07.com/home/cjapi/cfcf/mc10/vod/xml","playUrl": "https://jx.kujiexi.net/m3u8.php?url=","searchable": 1,"quickSearch": 1,"filterable": 0},
+{"key":"*🈲久久热在线","name":"*🈲久久热在线","type":0,"api":"https://www.caiji06.com/home/cjapi/cfbb/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲青青草视频","name":"*🈲青青草视频","type":0,"api":"https://www.caiji05.com/home/cjapi/cfda/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲麻豆视频","name":"*🈲麻豆视频","type":0,"api":"https://www.caiji04.com/home/cjapi/cfc7/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲91麻豆","name":"*🈲91麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲91md","name":"*🈲91mdm3u8","type": 1,"api": "https://91md.me/api.php/provide/vod/from/mdm3u8/","searchable": 1,"quickSearch": 1,"filterable": 0},
+{"key":"*🈲一本道资源","name":"*🈲一本道资源","type":0,"api":"https://www.caiji03.com/home/cjapi/cfg8/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲草榴视频","name":"*🈲草榴视频","type":0,"api":"https://www.caiji02.com/home/cjapi/cfas/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲亚洲成人在线","name":"*🈲亚洲成人在线","type":0,"api":"https://www.caiji01.com/home/cjapi/cfd2/mc/vod/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲天噜啦资源","name":"*🈲天噜啦资源","type":0,"api":"http://www.987caiji.com/api/max.php","searchable":1,"quickSearch":1},
+{"key":"*🈲99资源","name":"*🈲99资源","type":1,"api":"http://99zy.pw/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲010爱资源","name":"*🈲010爱资源","type":0,"api":"http://www.010aizy.com/API/macs.php","searchable":1,"quickSearch":1},
+{"key":"*🈲抖阴视频","name":"*🈲抖阴视频","type":1,"api":"https://www.888dav.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲酷豆资源","name":"*🈲酷豆资源","type":1,"api":"https://kudouzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},//xml类型:"https://api.kdapi.info/api.php/provide/vod/at/xml/",
+{"key":"*🈲奶茶资源","name":"*🈲奶茶资源","type":1,"api":"https://caiji.naichaapi.com/inc/apijson_vod.php?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲淫水机资源","name":"*🈲淫水机资源","type":0,"api":"https://www.xrbsp.com/api/xml.php","searchable":1,"quickSearch":1},
+{"key":"*🈲香奶儿资源","name":"*🈲香奶儿资源","type":0,"api":"https://www.gdlsp.com/api/xml.php","searchable":1,"quickSearch":1},
+{"key":"*🈲白嫖资源","name":"*🈲白嫖资源","type":0,"api":"https://www.kxgav.com/api/xml.php","searchable":1,"quickSearch":1},
+{"key":"*🈲小湿妹资源","name":"*🈲小湿妹资源","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":1,"quickSearch":1},
+{"key":"*🈲CK资源","name":"*🈲CK资源","type":1,"api":"http://www.feifei67.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲老鸭资源","name":"*🈲老鸭资源","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲爱播资源","name":"*🈲爱播资源","type":1,"api":"https://cj.apiabzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲辣椒资源","name":"*🈲辣椒资源","type":1,"api":"https://apilj.com/api.php/provide/vod/at/json/","searchable":1,"quickSearch":1},
+{"key":"*🈲乐播资源","name":"*🈲乐播资源","type":1,"api":"https://lbapi9.com/api.php/provide/vod/at/json/","searchable":1,"quickSearch":1},
+{"key":"*🈲博天堂","name":"*🈲博天堂","type":0,"api":"http://bttcj.com/inc/sapi.php","searchable":1,"quickSearch":1},
+{"key":"*🈲环亚资源","name":"*🈲环亚资源","type":0,"api":"http://wmcj8.com/inc/sapi.php","searchable":1,"quickSearch":1},
+{"key":"*🈲番号资源","name":"*🈲番号资源","type":0,"api":"http://fhapi9.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1},
+{"key":"*🈲鲨鱼资源","name":"*🈲鲨鱼资源","type":1,"api":"https://shayuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲KK写真资源","name":"*🈲KK写真资源","type":1,"api":"https://kkzy.me/api.php/provide/vod/","searchable":1,"quickSearch":1},//https://kkzy.me/api.php/provide/vod/?ac=list
+{"key":"*🈲哥哥妹妹资源","name":"*🈲哥哥妹妹资源","type":0,"api":"http://www.ggmmzy.com:9999/inc/xml","searchable":1,"quickSearch":1},
+{"key":"*🈲色色资源","name":"*🈲色色资源","type":0,"api":"http://secj8.com/inc/api.php?ac=videolist","searchable":1,"quickSearch":1},
+{"key":"*🈲富二代资源","name":"*🈲富二代资源(FM)","type":0,"api":"http://f2dcj6.com/sapi?ac=videolist","searchable":1,"quickSearch":1},
+{"key":"*🈲富二代资源1","name":"*🈲富二代资源1","type":0,"api":"http://f2dcj6.com/sapi?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲字幕网资源","name":"*🈲字幕网资源(FM)","type":0,"api":"http://zmcj88.com/sapi?ac=videolist","searchable":1,"quickSearch":1},
+{"key":"*🈲字幕网资源1","name":"*🈲字幕网资源1","type":0,"api":"http://zmcj88.com/api?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲利来资源","name":"*🈲利来资源(FM)","type":0,"api":"http://llzxcj.com/inc/sck.php?ac=videolist","searchable":1,"quickSearch":1},
+{"key":"*🈲利来资源1","name":"*🈲利来资源","type":0,"api":"http://llzxcj.com/inc/sck.php?ac=list","searchable":1,"quickSearch":1},
+{"key":"*🈲狼少年资源","name":"*🈲狼少年资源","type":0,"api":"http://cjmygzy.com/inc/sapi.php?ac=videolist","searchable":1,"quickSearch":1},
+{"key":"*🈲玖玖资源","name":"*🈲玖玖资源","type":0,"api":"http://99zywcj.com/inc/sck.php?ac=videolist","searchable":1,"quickSearch":1},
+{"key":"*🈲久草资源","name":"*🈲久草资源","type":0,"api":"http://jcspcj8.com/sapi?ac=videolist","searchable":1,"quickSearch":1},
+{"key":"*🈲芒果资源","name":"*🈲芒果资源","type":1,"api":"https://mgzyz1.com/api.php/provide/vod/","searchable":1,"quickSearch":1},//xml类型:"https://mgzyz1.com/api.php/provide/vod/at/xml/"
+{"key":"*🈲92爱资源","name":"*🈲92爱资源","type":0,"api":"http://www.92aizy.com/api/macs.php","searchable":1,"quickSearch":1},
+{"key":"*🈲酷伦理","name":"*🈲酷伦理","type":1,"api":"https://api.kudian70.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲影库资源","name":"*🈲影库资源","type":1,"api":"https://api.ykapi.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲CK资源","name":"*🈲CK资源","type":1,"api":"http://www.feifei67.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"*🈲ck三级","name":"*🈲ck三级","type":1,"api":"https://ckzy.me/api.php/provide/vod/","searchable":1,"quickSearch":1}
+  ],
+  "setting": [
+    {
+      "id": 0,
+      "theme": "auto",
+      "externalPlayer": "",
+      "defaultHot": "kylive",
+      "defaultSearchRecommend": "site",
+      "defaultSearchType": "site",
+      "defaultCheckModel": true,
+      "defaultChangeModel": false,
+      "defaultIptvEpg": "https://epg.112114.eu.org/",
+      "iptvSkipIpv6": true,
+      "iptvThumbnail": true,
+      "restoreWindowPositionAndSize": false,
+      "pauseWhenMinimize": true,
+      "defaultSite": 3,
+      "defaultIptv": 5,
+      "defaultAnalyze": 2,
+      "analyzeFlag": [
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv"
+      ],
+      "analyzeQuickSearchType": "platform",
+      "analyzeSupport": true,
+      "broadcasterType": "iina",
+      "softSolution": false,
+      "skipStartEnd": false,
+      "agreementMask": true,
+      "recordShortcut": "Shift+Command+Z",
+      "selfBoot": false,
+      "hardwareAcceleration": true,
+      "doh": "",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+      "communitySubscribe": "",
+      "iptvStatus": true,
+      "dns": "https://sm2.doh.pub/dns-query"
+    }
+  ],
+  "analyzeHistory": [
+    {
+      "date": "2023-09-03",
+      "analyzeId": 2,
+      "videoUrl": "https://v.qq.com/x/cover/mzc00200v6zk1xm.html",
+      "videoName": "前夜_1080P在线观看平台",
+      "id": 1
+    }
+  ],
+  "history": [
+    {
+      "date": "2023-08-13",
+      "siteKey": "wolongzyw",
+      "siteSource": "wolong",
+      "playEnd": false,
+      "videoId": 66010,
+      "videoImage": "https://pic.wlongimg.com/upload/vod/20230615-1/6666aa42da59bc92acb8932b7e65546e.jpg",
+      "videoName": "杀手古德",
+      "videoIndex": "第01集",
+      "watchTime": 16.315125,
+      "duration": 975.9599999999997,
+      "skipTimeInStart": 30,
+      "skipTimeInEnd": 30,
+      "id": 1
+    },
+  ],
+  "searchHistory": [
+    {
+      "title": "父辈的荣耀",
+      "type": "film",
+      "id": 1
+    }
+  ],
+  "star": [
+    {
+      "siteKey": "wolongzyw",
+      "videoId": 70042,
+      "videoImage": "https://pic.lzzypic.com/upload/vod/20230827-1/bcab69cb4ab4c12433fc12e5b3e10bc5.jpg",
+      "videoName": "父辈的荣耀",
+      "id": 6
+    }
+  ]
+}
